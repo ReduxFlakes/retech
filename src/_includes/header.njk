@@ -1,0 +1,10 @@
+<header class="site-header">
+    <strong style="font-size:1.25rem;">
+        <a href="/">{{site.title}}</a>
+    </strong>
+    <nav class="site-navbar">
+        {% for navbar in nav.navbar %}
+            <a href="{{navbar.url}}">{{navbar.title}}</a>
+        {% endfor %}
+    </nav>
+</header>

@@ -1,0 +1,16 @@
+{
+  "navbar": [
+    {
+      "title": "Quiz",
+      "url": "/quiz"
+    },
+    {
+      "title": "Recursos",
+      "url": "/biblioteca"
+    },
+    {
+      "title": "Sobre o projeto",
+      "url": "/sobre"
+    }
+  ]
+}
