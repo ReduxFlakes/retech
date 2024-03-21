@@ -31,23 +31,23 @@ const quizData = [
   },
   {
     question: "Qual o mito comummente associado a baterias ?",
-    a: "Que s�o feitas de l�tio.",
+    a: "Que são feitas de lítio.",
     b: 'Que estas "viciam" com o tempo.',
-    c: "Estas s�o provenientes de trabalho escravo.",
-    d: "Sabem a veneno de rato (n�o coloques baterias na boca :)",
+    c: "Estas são provenientes de trabalho escravo.",
+    d: "Sabem a veneno de rato (não coloques baterias na boca :)",
     correct: "b",
   },
   {
     question:
-      "Que podemos fazer para diminuir a polui��o, tendo em conta o tema do Question�rio ?",
-    a: "Optar por energias verdes, isto �, provenientes de pain�is solares, e�licas, etc.",
+      "Que podemos fazer para diminuir a poluição, tendo em conta o tema do Questionário ?",
+    a: "Optar por energias verdes, isto é, provenientes de painéis solares, eólicas, etc.",
     b: "Usar lamparinas de azeite.",
     c: "Usar geradores a gasolina.",
-    d: 'Comprar um carro a gas�leo e meter "linha direta". ',
+    d: 'Comprar um carro a gasóleo e meter "linha direta". ',
     correct: "a",
   },
   {
-    question: "Qual destas op��es � uma consequ�ncia da extra��o do L�tio?",
+    question: "Qual destas opções é uma consequência da extração do Lítio?",
     a: "Impossibilidade de o vender ao meu colega por um pre�o extraordin�rio.",
     b: "Vista urbana desagrad�vel, devido �s minas de extra��o do min�rio.",
     c: "Vista urbana agrad�vel, devido �s consequ�ncias derivadas das �ltimas elei��es realizadas.",
@@ -55,16 +55,16 @@ const quizData = [
     correct: "b",
   },
   {
-    question: "Onde se encontram as maiores minas de L�tio ?",
+    question: "Onde se encontram as maiores minas de Lítio ?",
     a: "No Chile.",
     b: "No meu quintal.",
     c: "Na Angola.",
-    d: "Nos Estados Unidos da Am�rica.",
+    d: "Nos Estados Unidos da América.",
     correct: "a",
   },
   {
     question:
-      "Qual � a fabricante de carros el�tricos mais famosa atualmente ?",
+      "Qual é a fabricante de carros elétricos mais famosa atualmente ?",
     a: "SpaceX.",
     b: "Tesla.",
     c: "Koenigsegg.",
@@ -72,19 +72,19 @@ const quizData = [
     correct: "b",
   },
   {
-    question: "Qual a diferen�a entre uma bateria Li-Po e Li-Ion ?",
+    question: "Qual a diferença entre uma bateria Li-Po e Li-Ion ?",
     a: "As baterias Li-Ion conseguem guardar mais energia do que as baterias Li-Po.",
-    b: "As baterias Li-Ion conseguem guardar mais energia num espa�o menor.",
-    c: "As baterias Li-Po conseguem guardar mais energia num espa�o maior.",
-    d: "As baterias Li-Po conseguem guardar mais energia num espa�o menor",
+    b: "As baterias Li-Ion conseguem guardar mais energia num espaço menor.",
+    c: "As baterias Li-Po conseguem guardar mais energia num espaço maior.",
+    d: "As baterias Li-Po conseguem guardar mais energia num espaço menor",
     correct: "d",
   },
   {
-    question: "Qual a vantagem de usar energias renov�veis ?",
+    question: "Qual a vantagem de usar energias renováveis ?",
     a: "Posso usar, esquecer-me de que existe e voltar a usar quando me lembrar.",
-    b: "Prolongamento da vida na Terra e desenvolvimento sustent�vel.",
-    c: "Nenhuma, o meta � andar de jato privado.",
-    d: "Esta al�nea est� aqui s� para encher chouri�os (agora j� sabes que s� h� 3 al�neas v�lidas).",
+    b: "Prolongamento da vida na Terra e desenvolvimento sustentável.",
+    c: "Nenhuma, o meta é andar de jato privado.",
+    d: "Esta alínea está aqui só para encher chouriços (agora já sabes que só há 3 alíneas válidas).",
     correct: "b",
   },
 ];
@@ -131,9 +131,9 @@ function getSelected() {
 }
 
 function showResults() {
-  quiz.innerText = `
-    <h2>You answered correctly at ${score}/${quizData.length} questions</h2>
-    <button onclick="location.reload()">Reload</button>
+  quiz.innerHTML = `
+    <h2>Acertastes ${score}/${quizData.length} perguntas.</h2>
+    <button onclick="location.reload()">Recarregar quiz?</button>
   `;
 }
 
