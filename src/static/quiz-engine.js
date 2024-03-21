@@ -48,10 +48,10 @@ const quizData = [
   },
   {
     question: "Qual destas opções é uma consequência da extração do Lítio?",
-    a: "Impossibilidade de o vender ao meu colega por um pre�o extraordin�rio.",
-    b: "Vista urbana desagrad�vel, devido �s minas de extra��o do min�rio.",
-    c: "Vista urbana agrad�vel, devido �s consequ�ncias derivadas das �ltimas elei��es realizadas.",
-    d: "N�o sei.",
+    a: "Impossibilidade de o vender ao meu colega por um preço extraordinário.",
+    b: "Vista urbana desagradável, devido ás minas de extração do minério.",
+    c: "Vista urbana agradável, devido ás consequências derivadas das últimas eleiçoes realizadas.",
+    d: "Não sei.",
     correct: "b",
   },
   {
